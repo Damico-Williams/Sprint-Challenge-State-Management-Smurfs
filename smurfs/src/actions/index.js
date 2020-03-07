@@ -24,13 +24,13 @@ export const getSmurf = () => dispatch => {
       
 };
 
-export const getSmurf = (props) => dispatch => {
+export const Smurfing = smurf => dispatch => {
     dispatch({type: SMURF_POST_START});
 
     axios.post("http://localhost:3333/smurfs", {
-        name:props.name,
-        age:props.age,
-        height:props.height
+        name:smurf.name,
+        age:smurf.age,
+        height:smurf.height
     })
       .then(result => {
           console.log(result);
