@@ -19,7 +19,7 @@ export const getSmurf = () => dispatch => {
       })
       .catch(err => {
           console.log(err);
-          dispatch({ type: FETCHING_SMURF_FAILED, payload: `${err.response.message} ${err.response.code}`})
+          dispatch({ type: FETCHING_SMURF_FAILED, payload: err})
       })
       
 };
@@ -38,7 +38,7 @@ export const Smurfing = smurf => dispatch => {
       })
       .catch(err => {
           console.log(err);
-          dispatch({ type: SMURF_POST_FAILED, payload: `${err.response.message} ${err.response.code}`})
+          dispatch({ type: SMURF_POST_FAILED, payload: err})
       })
       
 };

@@ -28,7 +28,7 @@ It allows you to share values across components not just from parent to child.
 
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
 
-Store allows components to share state. It is a state container. Actions tell reducers how state should change.Reducers dictate changes to a applications state.
+Store allows components to share state as a state container. Actions tell reducers how state should change then reducers dictate changes to a applications state.
 
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
 
@@ -40,7 +40,7 @@ A function returned by another function, redux-thunk allows us to run asynchrono
 
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
 
-I enjoyed context api because it is a bit simpler to use but I would rather keep practice with redux because its used more in the job field.
+I enjoyed context api because of its simple use but I will probably stick with redux because its used more in the job field.
 
 ## Project Set Up
 
